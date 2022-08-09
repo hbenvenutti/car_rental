@@ -1,5 +1,6 @@
-import { Application } from '../../../../deps.ts';
-import { router } from './routes/index.routes.ts';
+import { Application } from '/shared/modules/deps.ts';
+
+import { router } from '/shared/infra/http/routes/index.routes.ts';
 
 class App {
   server = new Application();
